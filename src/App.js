@@ -17,9 +17,6 @@ import AnonymousLanding from './components/anonymous';
 
 import { getDongleID } from './url';
 import store, { history } from './store';
-import { initGoogleAnalytics } from './analytics';
-
-initGoogleAnalytics(history);
 
 class App extends Component {
   constructor(props) {
